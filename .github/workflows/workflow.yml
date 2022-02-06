@@ -24,7 +24,7 @@ jobs:
           BRANCH: gh-pages
           FOLDER: out
           CLEAN: true
-          CLEAN-EXCLUDE: |
+          CLEAN_EXCLUDE: |
             .nojekyll
         env:
           ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
